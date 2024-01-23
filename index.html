@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hockey-webpage</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+
+<style>
+    .font-manrope{
+        font-family: 'Manrope', sans-serif;
+    }
+</style>
+</head>
+<body class="font-manrope">
+    <header class="container mx-auto ">
+
+        <div class="navbar-start lg:hidden">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+              </div>
+              <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                <li><a>Home</a></li>
+                <li><a>Page</a></li>
+                <li><a>About</a></li>
+                <li><a>Blog</a></li>
+                <li><a>Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        <nav class="flex lg:justify-around mt-[60px]">
+            <div>
+                <h1 class="font-extrabold text-4xl	#131318;">Hockey<span class="text-red-500">’</span>s</h1>
+            </div>
+            <div class="">
+                <ul class="flex  lg:flex-rows justify-between gap-[30px]">
+                    <li>
+                        <a href="" class="text-red-500">Home</a>
+                    </li>
+                    <li>
+                        <a href="" class="text-[#424247]">About</a>
+                    </li>
+                    <li>
+                        <a href="" class="text-[#424247]">Pages</a>
+                    </li>
+                    <li>
+                        <a href="" class="text-[#424247]">Blog</a>
+                    </li> 
+                    <li>
+                        <a href="" class="text-[#424247]">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="flex gap-[10px] justify-center items-center">
+                <img src="Images/Frame (3).png" class="w-4 h-4" alt="">
+                <button class="text-xl font-bold bg-red-600 text-white px-[18px] py-[15px] rounded-lg">Get Ticket</button>
+            </div>
+         </nav>
+
+        <div class=" container mx-auto mt-[50px] relative">
+            <div class="carousel w-[350px] h-[200px] mx-[30px] mx-[100px] lg:w-[1100px] lg:h-[500px] ">
+                <div id="slide1" class="carousel-item relative w-full">
+                  <img src="Images/1.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide4" class="btn btn-circle">❮</a> 
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide2" class="carousel-item relative w-full">
+                  <img src="Images/1.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle">❮</a> 
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide3" class="carousel-item relative w-full">
+                  <img src="Images/1.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle">❮</a> 
+                    <a href="#slide4" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide4" class="carousel-item relative w-full">
+                  <img src="Images/1.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide3" class="btn btn-circle">❮</a> 
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                  </div>
+                </div>
+
+                    
+              </div>
+             <div class=" w-[380px] ml-[10px]  lg:w-[550px] lg:h-[130px] bg-black ml-[10px] mt-[10px] rounded-2xl lg:ml-[450px] bottom-[25px] left-[5px] p-[10px] lg:absolute">
+                        <h1 class="text-xl  lg:text-2xl	font-extrabold text-white	">Meet all the heroes from the field</h1>
+                        <p class="font-medium	text-base text-white	">Hockey Heroes is an eight week hockey programme aimed at beginners that not only focuses on helping children develop some physical hockey superpowers</p>
+                    </div>
+
+
+    </header>
+
+
+
+    <main class="container mx-auto">
+
+        <div>
+            <div>
+
+            </div>
+        </div>
+
+    </main> 
+    <footer>
+
+    </footer>
+</body>
+</html>
